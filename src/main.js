@@ -78,7 +78,11 @@ const cardNumberMasked = IMask(cardNumber, cardNumberPattern)
 
 const addButton = document.querySelector("#add-card")
 addButton.addEventListener("click", () =>{
-  alert(`Cartão adicionado com regras de numeração para bandeiras VISA e MASTERCARD e regras para o preenchimento de todos os campos usando máscaras.`)
+  alert(`Cartão adicionado com as regras REAIS de numeração para bandeiras VISA e MASTERCARD e regras para o preenchimento de todos os campos usando máscaras:
+  Campo "NÚMERO DO CARTÃO:" Apenas números;
+  Campo "NOME DO TITULAR:" Apenas letras;
+  Campo "EXPIRAÇÃO:" Apenas data < 12/32;
+  Campo "CVC:" Apenas de 1 a 4 dígitos.)
 })
 
 document.querySelector("form").addEventListener("submit", (event)=>{
