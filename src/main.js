@@ -82,7 +82,7 @@ addButton.addEventListener("click", () =>{
   Campo "NÚMERO DO CARTÃO:" Apenas números;
   Campo "NOME DO TITULAR:" Apenas letras;
   Campo "EXPIRAÇÃO:" Apenas data < 12/32;
-  Campo "CVC:" Apenas de 1 a 4 dígitos.)
+  Campo "CVC:" Apenas de 1 a 4 dígitos.`)
 })
 
 document.querySelector("form").addEventListener("submit", (event)=>{
